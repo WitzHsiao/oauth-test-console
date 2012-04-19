@@ -9,12 +9,7 @@
 |	http://codeigniter.com/user_guide/general/hooks.html
 |
 */
-$hook['pre_controller'][] = array(
-    'class' => 'Zendframework', 
-    'function' => 'index', 
-    'filename' => 'zendframework.php', 
-    'filepath' => 'hooks'
-);
+
 
 
 /* End of file hooks.php */
