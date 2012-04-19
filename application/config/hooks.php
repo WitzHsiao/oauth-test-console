@@ -10,6 +10,13 @@
 |
 */
 
+$hook['pre_controller'][] = array(
+    
+    'class'         => 'Zendframework',
+    'function'      => 'index',
+    'filename'      => 'zendframework.php',
+    'filepath'      => 'hooks'
+);
 
 
 /* End of file hooks.php */
